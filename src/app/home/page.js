@@ -1,8 +1,14 @@
+"use client"
+import Post from '@/components/Post';
 export default function HomePage() {
 return (
-<div>
+<>
 <h1>Bienvenido al Sistema</h1>
 <p>Esta es la página principal de nuestra aplicación</p>
-</div>
+<Post 
+title={"BRC"} 
+content={"viaje innolvidble"}> 
+</Post>
+</>
 );
 }
